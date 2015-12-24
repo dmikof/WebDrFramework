@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="9714" started-at="2015-12-24T20:40:34Z" finished-at="2015-12-24T20:40:44Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="9714" started-at="2015-12-24T20:40:34Z" finished-at="2015-12-24T20:40:44Z">
+      <class name="tests.VisaPlatinumRewardsSelectedTestKPCU">
+        <test-method status="PASS" signature="instantiateDriverObject()" name="instantiateDriverObject" is-config="true" duration-ms="14" started-at="2015-12-24T20:40:34Z" finished-at="2015-12-24T20:40:34Z">
+        </test-method>
+        <test-method status="PASS" signature="VisaPlatiunumRewardsSelected()" name="VisaPlatiunumRewardsSelected" duration-ms="9017" started-at="2015-12-24T20:40:34Z" finished-at="2015-12-24T20:40:43Z">
+        </test-method>
+        <test-method status="PASS" signature="clearCookies()" name="clearCookies" is-config="true" duration-ms="103" started-at="2015-12-24T20:40:43Z" finished-at="2015-12-24T20:40:44Z">
+        </test-method>
+        <test-method status="PASS" signature="closeDriverObjects()" name="closeDriverObjects" is-config="true" duration-ms="584" started-at="2015-12-24T20:40:44Z" finished-at="2015-12-24T20:40:44Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

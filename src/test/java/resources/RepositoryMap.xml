@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding="utf-8" standalone = "yes" ?>
+<root>
+    <windows></windows>
+    <linux></linux>
+    <osx>
+        <driver id = "googlechrome">
+                <version id= "2.20">
+                    <bitrate thirtytwobit="true" sixtyfourbit="true">
+                     <filelocation>http://chromedriver.storage.googleapis.com/2.20/chromedriver_mac32.zip
+                     </filelocation>
+                        <hash>a6af30e9deaf37d615c53a908a880c1735772a20</hash>
+                        <hashtype>sha1</hashtype>
+                    </bitrate>
+                </version>
+        </driver>
+    </osx>
+
+
+</root>
