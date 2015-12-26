@@ -1,4 +1,4 @@
-package tests;
+package trash;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -17,9 +17,9 @@ import utils.AdditionalConditions;
 /**
  * Created by dmitrykovpak on 21/12/15.
  */
-public class VisaPlatinumRewardsSelectedTestKPCU extends DriverFactory {
+public class VisaPlatinumRewardsSelectedTest extends DriverFactory {
 
-    @Test
+
     public void VisaPlatiunumRewardsSelected() throws Exception{
         WebDriver driver = DriverFactory.getDriver();
         driver.get("http://54.200.206.205:32789/");

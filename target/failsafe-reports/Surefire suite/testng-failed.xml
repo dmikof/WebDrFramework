@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" verbose="0" name="Failed suite [Surefire suite]" parallel="methods">
+  <test name="Surefire test(failed)" parallel="methods" preserve-order="false">
+    <classes>
+      <class name="tests.checkLandingPageWizardTextKPCU">
+        <methods>
+          <include name="clearCookies"/>
+          <include name="testLandingPageWizardText"/>
+          <include name="instantiateDriverObject"/>
+        </methods>
+      </class>
+      <class name="tests.VisaPlatinumRewardsSelectionAndGoingToNextPageKPCU">
+        <methods>
+          <include name="closeDriverObjects"/>
+          <include name="clearCookies"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

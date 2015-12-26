@@ -1,4 +1,4 @@
-package utils;
+package trash;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -6,11 +6,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
+import utils.DriverFactory;
 //run with mvn clean install -Dthreads=2 from the project folder
 /**
  * Created by dmitrykovpak on 14/12/15.
  */
-public class basicTest extends DriverFactory{
+public class basicTest extends DriverFactory {
     private void googleExampleThatSearchesFor(final String searchString) throws Exception{
        WebDriver driver = DriverFactory.getDriver();
         driver.get("http://google.com");
