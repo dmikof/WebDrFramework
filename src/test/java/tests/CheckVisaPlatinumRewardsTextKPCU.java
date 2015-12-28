@@ -7,20 +7,19 @@ import page_objects.LandingPage;
 import utils.AdditionalConditions;
 import utils.DriverFactory;
 
-//import static page_objects.LandingPage.getWizardTitleText;
-
 /**
- * Created by dmitrykovpak on 25/12/15.
+ * Created by dmitrykovpak on 28/12/15.
  */
-public class checkLandingPageWizardTextKPCU extends DriverFactory {
-     @Test
-    public void testLandingPageWizardText() throws Exception {
+public class CheckVisaPlatinumRewardsTextKPCU extends DriverFactory {
+    @Test
+    public void checkVisaPlatinumRewardsText() throws Exception {
         getDriver().get("http://54.200.206.205:32789/");
         LandingPage landingPage = new LandingPage();
         WebDriverWait wait = new WebDriverWait(getDriver(), 15, 100);
         wait.until(AdditionalConditions.angularHasFinishedProcessing());
-         //String WizardTitleText = landingPage.wizardTitle.getText();
-        Assert.assertEquals("Card Type", landingPage.getWizardTitleText());
+        Assert.assertEquals("Visa Platinum Rewards\n" +
+                "Annual Fee: $0\n" +
+                "As low as 8.99% APR* 2,500\n" +
+                "Welcome bonus reward points", landingPage.getVisaPlatinumRewardsText());
     }
-
 }

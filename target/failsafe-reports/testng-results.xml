@@ -1,127 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="49613" started-at="2015-12-26T00:22:09Z" finished-at="2015-12-26T00:22:59Z">
+  <suite name="Surefire suite" duration-ms="10811" started-at="2015-12-28T18:20:55Z" finished-at="2015-12-28T18:21:06Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="49613" started-at="2015-12-26T00:22:09Z" finished-at="2015-12-26T00:22:59Z">
-      <class name="tests.VisaPlatinumRewardsSelectionAndGoingToNextPageKPCU">
-        <test-method status="PASS" signature="testVisaPlatinumSelectionAndGoigtoNextPage()" name="testVisaPlatinumSelectionAndGoigtoNextPage" duration-ms="43320" started-at="2015-12-26T00:22:09Z" finished-at="2015-12-26T00:22:53Z">
+    <test name="Surefire test" duration-ms="10811" started-at="2015-12-28T18:20:55Z" finished-at="2015-12-28T18:21:06Z">
+      <class name="tests.VisaClassicAndToApplicationTypeKPCU">
+        <test-method status="PASS" signature="testVisaPlatinumSelectionAndToAplicationTypeKPCU()" name="testVisaPlatinumSelectionAndToAplicationTypeKPCU" duration-ms="6554" started-at="2015-12-28T18:20:55Z" finished-at="2015-12-28T18:21:01Z">
         </test-method>
-        <test-method status="PASS" signature="clearCookies()" name="clearCookies" is-config="true" duration-ms="195" started-at="2015-12-26T00:22:53Z" finished-at="2015-12-26T00:22:53Z">
+        <test-method status="PASS" signature="clearCookies()" name="clearCookies" is-config="true" duration-ms="10" started-at="2015-12-28T18:21:01Z" finished-at="2015-12-28T18:21:01Z">
         </test-method>
-        <test-method status="PASS" signature="closeDriverObjects()" name="closeDriverObjects" is-config="true" duration-ms="4576" started-at="2015-12-26T00:22:53Z" finished-at="2015-12-26T00:22:58Z">
+      </class>
+      <class name="tests.CheckVisaPlatinumRewardsTextKPCU">
+        <test-method status="PASS" signature="instantiateDriverObject()" name="instantiateDriverObject" is-config="true" duration-ms="12" started-at="2015-12-28T18:20:55Z" finished-at="2015-12-28T18:20:55Z">
+        </test-method>
+        <test-method status="PASS" signature="checkVisaPlatinumRewardsText()" name="checkVisaPlatinumRewardsText" duration-ms="1306" started-at="2015-12-28T18:21:04Z" finished-at="2015-12-28T18:21:05Z">
+        </test-method>
+        <test-method status="PASS" signature="clearCookies()" name="clearCookies" is-config="true" duration-ms="19" started-at="2015-12-28T18:21:05Z" finished-at="2015-12-28T18:21:06Z">
+        </test-method>
+        <test-method status="PASS" signature="closeDriverObjects()" name="closeDriverObjects" is-config="true" duration-ms="145" started-at="2015-12-28T18:21:06Z" finished-at="2015-12-28T18:21:06Z">
+        </test-method>
+      </class>
+      <class name="tests.CheckVisaClassicTextKPCU">
+        <test-method status="PASS" signature="checkVisaClassicText()" name="checkVisaClassicText" duration-ms="1590" started-at="2015-12-28T18:21:03Z" finished-at="2015-12-28T18:21:05Z">
+        </test-method>
+        <test-method status="PASS" signature="clearCookies()" name="clearCookies" is-config="true" duration-ms="7" started-at="2015-12-28T18:21:05Z" finished-at="2015-12-28T18:21:05Z">
+        </test-method>
+      </class>
+      <class name="tests.checkVizaPlatinumTextKPCU">
+        <test-method status="PASS" signature="testVisaPlatinumRewards()" name="testVisaPlatinumRewards" duration-ms="1840" started-at="2015-12-28T18:21:01Z" finished-at="2015-12-28T18:21:03Z">
+        </test-method>
+        <test-method status="PASS" signature="clearCookies()" name="clearCookies" is-config="true" duration-ms="8" started-at="2015-12-28T18:21:03Z" finished-at="2015-12-28T18:21:03Z">
+        </test-method>
+      </class>
+      <class name="tests.VisaPlatinumRewardsSelectionAndToApplicationTypeKPCU">
+        <test-method status="PASS" signature="testVisaPlatinumSelectionAndGoigtoNextPage()" name="testVisaPlatinumSelectionAndGoigtoNextPage" duration-ms="1929" started-at="2015-12-28T18:21:01Z" finished-at="2015-12-28T18:21:03Z">
+        </test-method>
+        <test-method status="PASS" signature="clearCookies()" name="clearCookies" is-config="true" duration-ms="15" started-at="2015-12-28T18:21:03Z" finished-at="2015-12-28T18:21:03Z">
         </test-method>
       </class>
       <class name="tests.checkLandingPageWizardTextKPCU">
-        <test-method status="PASS" signature="instantiateDriverObject()" name="instantiateDriverObject" is-config="true" duration-ms="10" started-at="2015-12-26T00:22:09Z" finished-at="2015-12-26T00:22:09Z">
+        <test-method status="PASS" signature="testLandingPageWizardText()" name="testLandingPageWizardText" duration-ms="1433" started-at="2015-12-28T18:21:03Z" finished-at="2015-12-28T18:21:04Z">
         </test-method>
-        <test-method status="FAIL" signature="testLandingPageWizardText()" name="testLandingPageWizardText" duration-ms="49523" started-at="2015-12-26T00:22:09Z" finished-at="2015-12-26T00:22:59Z">
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
-            <message>
-              <![CDATA[Error communicating with the remote browser. It may have died.
-Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
-System info: host: 'Dmitry-Kovpaks-MacBook-Pro.local', ip: '192.168.1.37', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.8.0_60'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
-System info: host: 'Dmitry-Kovpaks-MacBook-Pro.local', ip: '192.168.1.37', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.8.0_60'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:482)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy5.getText(Unknown Source)
-	at tests.checkLandingPageWizardTextKPCU.testLandingPageWizardText(checkLandingPageWizardTextKPCU.java:24)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7056 [/127.0.0.1] failed: Connection refused
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:161)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:89)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:170)
-	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
-	... 21 more
-Caused by: java.net.ConnectException: Connection refused
-	at java.net.PlainSocketImpl.socketConnect(Native Method)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
-	... 36 more
-]]>
-            </full-stacktrace>
-          </exception>
+        <test-method status="PASS" signature="clearCookies()" name="clearCookies" is-config="true" duration-ms="9" started-at="2015-12-28T18:21:04Z" finished-at="2015-12-28T18:21:04Z">
         </test-method>
-        <test-method status="FAIL" signature="clearCookies()" name="clearCookies" is-config="true" duration-ms="0" started-at="2015-12-26T00:22:59Z" finished-at="2015-12-26T00:22:59Z">
-          <exception class="org.openqa.selenium.remote.SessionNotFoundException">
-            <message>
-              <![CDATA[The FirefoxDriver cannot be used after quit() was called.
-Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
-System info: host: 'Dmitry-Kovpaks-MacBook-Pro.local', ip: '192.168.1.37', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.8.0_60'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.SessionNotFoundException: The FirefoxDriver cannot be used after quit() was called.
-Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
-System info: host: 'Dmitry-Kovpaks-MacBook-Pro.local', ip: '192.168.1.37', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.8.0_60'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:377)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:670)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:742)
-	at utils.DriverFactory.clearCookies(DriverFactory.java:40)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:525)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:202)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:753)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception>
+      </class>
+      <class name="tests.VisaPlatinumSelectionAndToApplicationTypeKPCU">
+        <test-method status="PASS" signature="testVisaPlatinumSelectionAndToAplicationTypeKPCU()" name="testVisaPlatinumSelectionAndToAplicationTypeKPCU" duration-ms="6065" started-at="2015-12-28T18:20:55Z" finished-at="2015-12-28T18:21:01Z">
         </test-method>
-        <test-method status="SKIP" signature="closeDriverObjects()" name="closeDriverObjects" is-config="true" duration-ms="0" started-at="2015-12-26T00:22:59Z" finished-at="2015-12-26T00:22:59Z">
+        <test-method status="PASS" signature="clearCookies()" name="clearCookies" is-config="true" duration-ms="21" started-at="2015-12-28T18:21:01Z" finished-at="2015-12-28T18:21:01Z">
         </test-method>
       </class>
     </test>

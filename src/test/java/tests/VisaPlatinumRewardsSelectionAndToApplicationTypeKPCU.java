@@ -13,14 +13,13 @@ import utils.DriverFactory;
 /**
  * Created by dmitrykovpak on 25/12/15.
  */
-public class VisaPlatinumRewardsSelectionAndGoingToNextPageKPCU extends DriverFactory{
+public class VisaPlatinumRewardsSelectionAndToApplicationTypeKPCU extends DriverFactory{
     @Test
     public void testVisaPlatinumSelectionAndGoigtoNextPage() throws Exception{
     getDriver().get("http://54.200.206.205:32789");
     LandingPage landingPage = new LandingPage();
-        //WebDriverWait wait = new WebDriverWait(getDriver(), 15, 100);
-        //wait.until(AdditionalConditions.angularHasFinishedProcessing());
-        Thread.sleep(20000);
+        WebDriverWait wait = new WebDriverWait(getDriver(), 15, 100);
+        wait.until(AdditionalConditions.angularHasFinishedProcessing());
         landingPage.selectVisaPlatinumRewards();
         landingPage.clickNextbutton();
         ApplicationTypePage applicationTypePage = new ApplicationTypePage();

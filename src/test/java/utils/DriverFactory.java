@@ -2,6 +2,7 @@ package utils;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import page_objects.ApplicationTypePage;
 import page_objects.LandingPage;
@@ -39,8 +40,11 @@ public class DriverFactory {
     public static void clearCookies() throws Exception {
         getDriver().manage().deleteAllCookies();
     }
-
-    @AfterMethod
+   /*@AfterMethod
+    public void closeDriver() throws Exception {
+     getDriver().quit();
+   }  */
+  @AfterSuite
     public static void closeDriverObjects() {
         for (WebDriverThread webDriverThread : webDriverThreadPool) {
             webDriverThread.quitDriver();

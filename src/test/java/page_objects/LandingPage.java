@@ -12,7 +12,7 @@ import utils.DriverFactory;
 public class LandingPage {
 
     @FindBy(how = How.CSS, using = "#radio_0")
-    private WebElement visaPlatinumRewardы;
+    private WebElement visaPlatinumRewards;
 
     @FindBy(how = How.CSS, using = "#radio_1")
     private WebElement visaPlatinum;
@@ -34,8 +34,8 @@ public class LandingPage {
     }
 
     public void selectVisaPlatinumRewards() {
-        if (!visaPlatinumRewardы.isSelected()) {
-            visaPlatinumRewardы.click();}
+        if (!visaPlatinumRewards.isSelected()) {
+            visaPlatinumRewards.click();}
     }
 
     public void checkVisaPlatinum() {
@@ -55,8 +55,24 @@ public class LandingPage {
         return new ApplicationTypePage();
     }
 
-    /*public static String getWizardTitleText() {
+    public String getVisaPlatinumRewardsText() {
+        String visaPlatinumRewardsText = visaPlatinumRewards.getText();
+        return visaPlatinumRewardsText;
+    }
+
+    public String getVisaPlatinumText() {
+        String visaPlatinumText = visaPlatinum.getText();
+        return visaPlatinumText;
+    }
+
+    public String getVisaClassicText() {
+        String visaClassicText = visaClassic.getText();
+        return visaClassicText;
+    }
+
+    public  String getWizardTitleText() {
         String wizardTitleText = wizardTitle.getText();
         return wizardTitleText;
-    }   */
+    }
 }
+

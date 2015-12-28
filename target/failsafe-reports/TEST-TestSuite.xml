@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="50.092" tests="4" errors="0" skipped="1" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="11.359" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="25.60-b23"/>
+    <property name="browser" value="safari"/>
     <property name="user.country.format" value="RU"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
@@ -44,7 +45,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install -Dthreads=2"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install -Dthreads=2 -Dbrowser=safari"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -62,29 +63,11 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testVisaPlatinumSelectionAndGoigtoNextPage" classname="tests.VisaPlatinumRewardsSelectionAndGoingToNextPageKPCU" time="43.32"/>
-  <testcase name="testLandingPageWizardText" classname="tests.checkLandingPageWizardTextKPCU" time="49.602">
-    <failure message="Error communicating with the remote browser. It may have died.&#10;Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;&#10;System info: host: &apos;Dmitry-Kovpaks-MacBook-Pro.local&apos;, ip: &apos;192.168.1.37&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.9.5&apos;, java.version: &apos;1.8.0_60&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: 
-Error communicating with the remote browser. It may have died.
-Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
-System info: host: 'Dmitry-Kovpaks-MacBook-Pro.local', ip: '192.168.1.37', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.8.0_60'
-Driver info: driver.version: RemoteWebDriver
-	at tests.checkLandingPageWizardTextKPCU.testLandingPageWizardText(checkLandingPageWizardTextKPCU.java:24)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7056 [/127.0.0.1] failed: Connection refused
-	at tests.checkLandingPageWizardTextKPCU.testLandingPageWizardText(checkLandingPageWizardTextKPCU.java:24)
-Caused by: java.net.ConnectException: Connection refused
-	at tests.checkLandingPageWizardTextKPCU.testLandingPageWizardText(checkLandingPageWizardTextKPCU.java:24)
-</failure>
-  </testcase>
-  <testcase name="clearCookies" classname="tests.checkLandingPageWizardTextKPCU" time="49.603">
-    <failure message="The FirefoxDriver cannot be used after quit() was called.&#10;Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;&#10;System info: host: &apos;Dmitry-Kovpaks-MacBook-Pro.local&apos;, ip: &apos;192.168.1.37&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.9.5&apos;, java.version: &apos;1.8.0_60&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.remote.SessionNotFoundException">org.openqa.selenium.remote.SessionNotFoundException: 
-The FirefoxDriver cannot be used after quit() was called.
-Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
-System info: host: 'Dmitry-Kovpaks-MacBook-Pro.local', ip: '192.168.1.37', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.8.0_60'
-Driver info: driver.version: RemoteWebDriver
-</failure>
-  </testcase>
-  <testcase name="closeDriverObjects" classname="tests.checkLandingPageWizardTextKPCU" time="0">
-    <skipped/>
-  </testcase>
+  <testcase name="testVisaPlatinumSelectionAndToAplicationTypeKPCU" classname="tests.VisaPlatinumSelectionAndToApplicationTypeKPCU" time="6.065"/>
+  <testcase name="testVisaPlatinumSelectionAndToAplicationTypeKPCU" classname="tests.VisaClassicAndToApplicationTypeKPCU" time="0.468"/>
+  <testcase name="testVisaPlatinumSelectionAndGoigtoNextPage" classname="tests.VisaPlatinumRewardsSelectionAndToApplicationTypeKPCU" time="1.451"/>
+  <testcase name="testVisaPlatinumRewards" classname="tests.checkVizaPlatinumTextKPCU" time="0.375"/>
+  <testcase name="testLandingPageWizardText" classname="tests.checkLandingPageWizardTextKPCU" time="1.049"/>
+  <testcase name="checkVisaClassicText" classname="tests.CheckVisaClassicTextKPCU" time="0.53"/>
+  <testcase name="checkVisaPlatinumRewardsText" classname="tests.CheckVisaPlatinumRewardsTextKPCU" time="1.305"/>
 </testsuite>
