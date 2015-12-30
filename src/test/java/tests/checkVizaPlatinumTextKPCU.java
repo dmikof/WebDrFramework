@@ -14,7 +14,7 @@ import utils.DriverFactory;
 public class checkVizaPlatinumTextKPCU extends DriverFactory {
     @Test
     public void testVisaPlatinumRewards() throws Exception {
-        getDriver().get("http://54.200.206.205:32789/");
+        getDriver().get("http://staging.kpcu.agilefusion.work/");
         LandingPage landingPage = new LandingPage();
         WebDriverWait wait = new WebDriverWait(getDriver(), 15, 100);
         wait.until(AdditionalConditions.angularHasFinishedProcessing());

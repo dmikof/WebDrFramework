@@ -2,54 +2,54 @@
 <testng-results skipped="0" failed="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="10811" started-at="2015-12-28T18:20:55Z" finished-at="2015-12-28T18:21:06Z">
+  <suite name="Surefire suite" duration-ms="23998" started-at="2015-12-29T18:59:59Z" finished-at="2015-12-29T19:00:23Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="10811" started-at="2015-12-28T18:20:55Z" finished-at="2015-12-28T18:21:06Z">
+    <test name="Surefire test" duration-ms="23998" started-at="2015-12-29T18:59:59Z" finished-at="2015-12-29T19:00:23Z">
       <class name="tests.VisaClassicAndToApplicationTypeKPCU">
-        <test-method status="PASS" signature="testVisaPlatinumSelectionAndToAplicationTypeKPCU()" name="testVisaPlatinumSelectionAndToAplicationTypeKPCU" duration-ms="6554" started-at="2015-12-28T18:20:55Z" finished-at="2015-12-28T18:21:01Z">
+        <test-method status="PASS" signature="testVisaPlatinumSelectionAndToAplicationTypeKPCU()" name="testVisaPlatinumSelectionAndToAplicationTypeKPCU" duration-ms="18132" started-at="2015-12-29T18:59:59Z" finished-at="2015-12-29T19:00:17Z">
         </test-method>
-        <test-method status="PASS" signature="clearCookies()" name="clearCookies" is-config="true" duration-ms="10" started-at="2015-12-28T18:21:01Z" finished-at="2015-12-28T18:21:01Z">
+        <test-method status="PASS" signature="clearCookies()" name="clearCookies" is-config="true" duration-ms="21" started-at="2015-12-29T19:00:17Z" finished-at="2015-12-29T19:00:17Z">
         </test-method>
       </class>
       <class name="tests.CheckVisaPlatinumRewardsTextKPCU">
-        <test-method status="PASS" signature="instantiateDriverObject()" name="instantiateDriverObject" is-config="true" duration-ms="12" started-at="2015-12-28T18:20:55Z" finished-at="2015-12-28T18:20:55Z">
+        <test-method status="PASS" signature="instantiateDriverObject()" name="instantiateDriverObject" is-config="true" duration-ms="14" started-at="2015-12-29T18:59:59Z" finished-at="2015-12-29T18:59:59Z">
         </test-method>
-        <test-method status="PASS" signature="checkVisaPlatinumRewardsText()" name="checkVisaPlatinumRewardsText" duration-ms="1306" started-at="2015-12-28T18:21:04Z" finished-at="2015-12-28T18:21:05Z">
+        <test-method status="PASS" signature="checkVisaPlatinumRewardsText()" name="checkVisaPlatinumRewardsText" duration-ms="2297" started-at="2015-12-29T19:00:21Z" finished-at="2015-12-29T19:00:23Z">
         </test-method>
-        <test-method status="PASS" signature="clearCookies()" name="clearCookies" is-config="true" duration-ms="19" started-at="2015-12-28T18:21:05Z" finished-at="2015-12-28T18:21:06Z">
+        <test-method status="PASS" signature="clearCookies()" name="clearCookies" is-config="true" duration-ms="10" started-at="2015-12-29T19:00:23Z" finished-at="2015-12-29T19:00:23Z">
         </test-method>
-        <test-method status="PASS" signature="closeDriverObjects()" name="closeDriverObjects" is-config="true" duration-ms="145" started-at="2015-12-28T18:21:06Z" finished-at="2015-12-28T18:21:06Z">
+        <test-method status="PASS" signature="closeDriverObjects()" name="closeDriverObjects" is-config="true" duration-ms="174" started-at="2015-12-29T19:00:23Z" finished-at="2015-12-29T19:00:23Z">
         </test-method>
       </class>
       <class name="tests.CheckVisaClassicTextKPCU">
-        <test-method status="PASS" signature="checkVisaClassicText()" name="checkVisaClassicText" duration-ms="1590" started-at="2015-12-28T18:21:03Z" finished-at="2015-12-28T18:21:05Z">
+        <test-method status="PASS" signature="checkVisaClassicText()" name="checkVisaClassicText" duration-ms="2937" started-at="2015-12-29T19:00:20Z" finished-at="2015-12-29T19:00:23Z">
         </test-method>
-        <test-method status="PASS" signature="clearCookies()" name="clearCookies" is-config="true" duration-ms="7" started-at="2015-12-28T18:21:05Z" finished-at="2015-12-28T18:21:05Z">
+        <test-method status="PASS" signature="clearCookies()" name="clearCookies" is-config="true" duration-ms="17" started-at="2015-12-29T19:00:23Z" finished-at="2015-12-29T19:00:23Z">
         </test-method>
       </class>
       <class name="tests.checkVizaPlatinumTextKPCU">
-        <test-method status="PASS" signature="testVisaPlatinumRewards()" name="testVisaPlatinumRewards" duration-ms="1840" started-at="2015-12-28T18:21:01Z" finished-at="2015-12-28T18:21:03Z">
+        <test-method status="PASS" signature="testVisaPlatinumRewards()" name="testVisaPlatinumRewards" duration-ms="3293" started-at="2015-12-29T19:00:17Z" finished-at="2015-12-29T19:00:20Z">
         </test-method>
-        <test-method status="PASS" signature="clearCookies()" name="clearCookies" is-config="true" duration-ms="8" started-at="2015-12-28T18:21:03Z" finished-at="2015-12-28T18:21:03Z">
+        <test-method status="PASS" signature="clearCookies()" name="clearCookies" is-config="true" duration-ms="12" started-at="2015-12-29T19:00:20Z" finished-at="2015-12-29T19:00:20Z">
         </test-method>
       </class>
       <class name="tests.VisaPlatinumRewardsSelectionAndToApplicationTypeKPCU">
-        <test-method status="PASS" signature="testVisaPlatinumSelectionAndGoigtoNextPage()" name="testVisaPlatinumSelectionAndGoigtoNextPage" duration-ms="1929" started-at="2015-12-28T18:21:01Z" finished-at="2015-12-28T18:21:03Z">
+        <test-method status="PASS" signature="testVisaPlatinumSelectionAndGoigtoNextPage()" name="testVisaPlatinumSelectionAndGoigtoNextPage" duration-ms="5019" started-at="2015-12-29T19:00:11Z" finished-at="2015-12-29T19:00:16Z">
         </test-method>
-        <test-method status="PASS" signature="clearCookies()" name="clearCookies" is-config="true" duration-ms="15" started-at="2015-12-28T18:21:03Z" finished-at="2015-12-28T18:21:03Z">
+        <test-method status="PASS" signature="clearCookies()" name="clearCookies" is-config="true" duration-ms="44" started-at="2015-12-29T19:00:16Z" finished-at="2015-12-29T19:00:17Z">
         </test-method>
       </class>
       <class name="tests.checkLandingPageWizardTextKPCU">
-        <test-method status="PASS" signature="testLandingPageWizardText()" name="testLandingPageWizardText" duration-ms="1433" started-at="2015-12-28T18:21:03Z" finished-at="2015-12-28T18:21:04Z">
+        <test-method status="PASS" signature="testLandingPageWizardText()" name="testLandingPageWizardText" duration-ms="3495" started-at="2015-12-29T19:00:17Z" finished-at="2015-12-29T19:00:21Z">
         </test-method>
-        <test-method status="PASS" signature="clearCookies()" name="clearCookies" is-config="true" duration-ms="9" started-at="2015-12-28T18:21:04Z" finished-at="2015-12-28T18:21:04Z">
+        <test-method status="PASS" signature="clearCookies()" name="clearCookies" is-config="true" duration-ms="32" started-at="2015-12-29T19:00:21Z" finished-at="2015-12-29T19:00:21Z">
         </test-method>
       </class>
       <class name="tests.VisaPlatinumSelectionAndToApplicationTypeKPCU">
-        <test-method status="PASS" signature="testVisaPlatinumSelectionAndToAplicationTypeKPCU()" name="testVisaPlatinumSelectionAndToAplicationTypeKPCU" duration-ms="6065" started-at="2015-12-28T18:20:55Z" finished-at="2015-12-28T18:21:01Z">
+        <test-method status="PASS" signature="testVisaPlatinumSelectionAndToAplicationTypeKPCU()" name="testVisaPlatinumSelectionAndToAplicationTypeKPCU" duration-ms="12508" started-at="2015-12-29T18:59:59Z" finished-at="2015-12-29T19:00:11Z">
         </test-method>
-        <test-method status="PASS" signature="clearCookies()" name="clearCookies" is-config="true" duration-ms="21" started-at="2015-12-28T18:21:01Z" finished-at="2015-12-28T18:21:01Z">
+        <test-method status="PASS" signature="clearCookies()" name="clearCookies" is-config="true" duration-ms="21" started-at="2015-12-29T19:00:11Z" finished-at="2015-12-29T19:00:11Z">
         </test-method>
       </class>
     </test>

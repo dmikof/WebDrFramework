@@ -4,6 +4,7 @@ trash/ClassForTestingTests.class
 config/DriverType$1.class
 config/DriverType.class
 tests/VisaClassicAndToApplicationTypeKPCU.class
+resources/StageURL.class
 config/DriverType$3.class
 tests/checkVizaPlatinumTextKPCU.class
 tests/VisaPlatinumRewardsSelectionAndToApplicationTypeKPCU.class

@@ -36,6 +36,7 @@ public class DriverFactory {
 
     public static WebDriver getDriver() throws Exception {return driverThread.get().getDriver();}
 
+
     @AfterMethod
     public static void clearCookies() throws Exception {
         getDriver().manage().deleteAllCookies();
