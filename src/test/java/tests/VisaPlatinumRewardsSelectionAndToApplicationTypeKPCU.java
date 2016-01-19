@@ -1,7 +1,5 @@
 package tests;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -16,8 +14,8 @@ import utils.DriverFactory;
 public class VisaPlatinumRewardsSelectionAndToApplicationTypeKPCU extends DriverFactory{
     @Test
     public void testVisaPlatinumSelectionAndGoigtoNextPage() throws Exception{
-    getDriver().get("http://staging.kpcu.agilefusion.work/");
-    LandingPage landingPage = new LandingPage();
+        loadLandingPage();
+        LandingPage landingPage = new LandingPage();
         WebDriverWait wait = new WebDriverWait(getDriver(), 15, 100);
         wait.until(AdditionalConditions.angularHasFinishedProcessing());
         landingPage.selectVisaPlatinumRewards();

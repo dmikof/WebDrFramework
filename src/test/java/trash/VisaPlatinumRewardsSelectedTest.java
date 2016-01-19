@@ -1,13 +1,10 @@
 package trash;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.Test;
 
 import utils.DriverFactory;
 import utils.AdditionalConditions;
@@ -22,7 +19,7 @@ public class VisaPlatinumRewardsSelectedTest extends DriverFactory {
 
     public void VisaPlatiunumRewardsSelected() throws Exception{
         WebDriver driver = DriverFactory.getDriver();
-        driver.get("http://54.200.206.205:32789/");
+        loadLandingPage();
         WebDriverWait wait = new WebDriverWait(DriverFactory.getDriver(), 15, 100);
         wait.until(AdditionalConditions.angularHasFinishedProcessing());
         WebElement VisaPlatiunumRewardscheckbox = driver.findElement(By.cssSelector("#radio_0"));

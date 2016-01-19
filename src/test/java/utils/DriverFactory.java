@@ -36,6 +36,8 @@ public class DriverFactory {
 
     public static WebDriver getDriver() throws Exception {return driverThread.get().getDriver();}
 
+    public static void loadLandingPage() throws Exception {getDriver().
+            get("http://staging.kpcu.agilefusion.work/");}
 
     @AfterMethod
     public static void clearCookies() throws Exception {

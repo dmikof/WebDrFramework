@@ -2,14 +2,14 @@
 <testng-results skipped="0" failed="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="1" started-at="2015-12-29T18:59:58Z" finished-at="2015-12-29T18:59:58Z">
+  <suite name="Command line suite" duration-ms="0" started-at="2016-01-19T01:52:55Z" finished-at="2016-01-19T01:52:55Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="1" started-at="2015-12-29T18:59:58Z" finished-at="2015-12-29T18:59:58Z">
+    <test name="Command line test" duration-ms="0" started-at="2016-01-19T01:52:55Z" finished-at="2016-01-19T01:52:55Z">
       <class name="trash.VisaPlatinumRewardsSelectedTest">
-        <test-method status="PASS" signature="instantiateDriverObject()" name="instantiateDriverObject" is-config="true" duration-ms="10" started-at="2015-12-29T18:59:58Z" finished-at="2015-12-29T18:59:58Z">
+        <test-method status="PASS" signature="instantiateDriverObject()" name="instantiateDriverObject" is-config="true" duration-ms="11" started-at="2016-01-19T01:52:55Z" finished-at="2016-01-19T01:52:55Z">
         </test-method>
-        <test-method status="PASS" signature="closeDriverObjects()" name="closeDriverObjects" is-config="true" duration-ms="1" started-at="2015-12-29T18:59:58Z" finished-at="2015-12-29T18:59:58Z">
+        <test-method status="PASS" signature="closeDriverObjects()" name="closeDriverObjects" is-config="true" duration-ms="1" started-at="2016-01-19T01:52:56Z" finished-at="2016-01-19T01:52:56Z">
         </test-method>
       </class>
     </test>

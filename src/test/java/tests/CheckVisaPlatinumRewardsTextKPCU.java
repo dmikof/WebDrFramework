@@ -13,13 +13,15 @@ import utils.DriverFactory;
 public class CheckVisaPlatinumRewardsTextKPCU extends DriverFactory {
     @Test
     public void checkVisaPlatinumRewardsText() throws Exception {
-        getDriver().get("http://staging.kpcu.agilefusion.work/");
+        //getDriver().get("http://staging.kpcu.agilefusion.work/");
+        loadLandingPage();
         LandingPage landingPage = new LandingPage();
         WebDriverWait wait = new WebDriverWait(getDriver(), 15, 100);
         wait.until(AdditionalConditions.angularHasFinishedProcessing());
-        Assert.assertEquals("Visa Platinum Rewards\n" +
+        Assert.assertEquals(landingPage.getVisaPlatinumRewardsText(), "Visa Platinum Rewards\n" +
                 "Annual Fee: $0\n" +
-                "As low as 8.99% APR* 2,500\n" +
-                "Welcome bonus reward points", landingPage.getVisaPlatinumRewardsText());
+                "As low as 8.99% APR\n" +
+                "2,500 Welcome bonus reward points");
     }
 }
+

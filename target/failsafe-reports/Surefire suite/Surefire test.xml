@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite hostname="Dmitry-Kovpaks-MacBook-Pro.local" name="tests.CheckVisaClassicTextKPCU" tests="7" failures="0" timestamp="29 Dec 2015 16:00:23 GMT" time="23.998" errors="0">
-  <testcase name="testVisaPlatinumSelectionAndToAplicationTypeKPCU" time="12.508" classname="tests.VisaPlatinumSelectionAndToApplicationTypeKPCU"/>
-  <testcase name="testVisaPlatinumSelectionAndGoigtoNextPage" time="5.019" classname="tests.VisaPlatinumRewardsSelectionAndToApplicationTypeKPCU"/>
-  <testcase name="testVisaPlatinumSelectionAndToAplicationTypeKPCU" time="18.132" classname="tests.VisaClassicAndToApplicationTypeKPCU"/>
-  <testcase name="testVisaPlatinumRewards" time="3.293" classname="tests.checkVizaPlatinumTextKPCU"/>
-  <testcase name="testLandingPageWizardText" time="3.495" classname="tests.checkLandingPageWizardTextKPCU"/>
-  <testcase name="checkVisaClassicText" time="2.937" classname="tests.CheckVisaClassicTextKPCU"/>
-  <testcase name="checkVisaPlatinumRewardsText" time="2.297" classname="tests.CheckVisaPlatinumRewardsTextKPCU"/>
+<testsuite hostname="Dmitry-Kovpaks-MacBook-Pro.local" name="tests.CheckVisaClassicTextKPCU" tests="7" failures="0" timestamp="18 Jan 2016 22:53:30 GMT" time="31.897" errors="0">
+  <testcase name="testVisaPlatinumSelectionAndToAplicationTypeKPCU" time="16.355" classname="tests.VisaPlatinumSelectionAndToApplicationTypeKPCU"/>
+  <testcase name="testVisaPlatinumSelectionAndGoigtoNextPage" time="20.229" classname="tests.VisaPlatinumRewardsSelectionAndToApplicationTypeKPCU"/>
+  <testcase name="testVisaPlatinumRewards" time="7.412" classname="tests.checkVizaPlatinumTextKPCU"/>
+  <testcase name="testLandingPageWizardText" time="7.66" classname="tests.checkLandingPageWizardTextKPCU"/>
+  <testcase name="testVisaPlatinumSelectionAndToAplicationTypeKPCU" time="29.264" classname="tests.VisaClassicAndToApplicationTypeKPCU"/>
+  <testcase name="checkVisaClassicText" time="5.927" classname="tests.CheckVisaClassicTextKPCU"/>
+  <testcase name="checkVisaPlatinumRewardsText" time="3.828" classname="tests.CheckVisaPlatinumRewardsTextKPCU"/>
 </testsuite>

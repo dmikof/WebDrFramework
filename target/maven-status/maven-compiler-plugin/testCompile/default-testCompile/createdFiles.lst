@@ -1,3 +1,4 @@
+tests/CheckApplicationTypeFormFillKPCU.class
 tests/CheckVisaClassicTextKPCU.class
 tests/CheckVisaPlatinumRewardsTextKPCU.class
 trash/ClassForTestingTests.class
@@ -12,6 +13,7 @@ page_objects/LandingPage.class
 page_objects/ApplicationTypePage.class
 tests/VisaPlatinumSelectionAndToApplicationTypeKPCU.class
 utils/AdditionalConditions.class
+page_objects/DocumentTypePage.class
 config/DriverSetup.class
 utils/WebDriverThread.class
 trash/VisaPlatinumRewardsSelectedTest.class

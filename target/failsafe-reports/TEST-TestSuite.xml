@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="24.574" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="32.988" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="25.60-b23"/>
-    <property name="browser" value="firefox"/>
     <property name="user.country.format" value="RU"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
@@ -12,7 +11,7 @@
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="threads" value="2"/>
+    <property name="threads" value="3"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
@@ -45,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install -Dthreads=2 -Dbrowser=firefox"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install -Dthreads=3"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -63,11 +62,11 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testVisaPlatinumSelectionAndToAplicationTypeKPCU" classname="tests.VisaPlatinumSelectionAndToApplicationTypeKPCU" time="12.509"/>
-  <testcase name="testVisaPlatinumSelectionAndGoigtoNextPage" classname="tests.VisaPlatinumRewardsSelectionAndToApplicationTypeKPCU" time="5.019"/>
-  <testcase name="testVisaPlatinumSelectionAndToAplicationTypeKPCU" classname="tests.VisaClassicAndToApplicationTypeKPCU" time="0.538"/>
-  <testcase name="testVisaPlatinumRewards" classname="tests.checkVizaPlatinumTextKPCU" time="2.735"/>
-  <testcase name="testLandingPageWizardText" classname="tests.checkLandingPageWizardTextKPCU" time="0.745"/>
-  <testcase name="checkVisaClassicText" classname="tests.CheckVisaClassicTextKPCU" time="2.156"/>
-  <testcase name="checkVisaPlatinumRewardsText" classname="tests.CheckVisaPlatinumRewardsTextKPCU" time="2.295"/>
+  <testcase name="testVisaPlatinumSelectionAndToAplicationTypeKPCU" classname="tests.VisaPlatinumSelectionAndToApplicationTypeKPCU" time="16.355"/>
+  <testcase name="testVisaPlatinumSelectionAndGoigtoNextPage" classname="tests.VisaPlatinumRewardsSelectionAndToApplicationTypeKPCU" time="3.856"/>
+  <testcase name="testVisaPlatinumRewards" classname="tests.checkVizaPlatinumTextKPCU" time="3.474"/>
+  <testcase name="testLandingPageWizardText" classname="tests.checkLandingPageWizardTextKPCU" time="4.164"/>
+  <testcase name="testVisaPlatinumSelectionAndToAplicationTypeKPCU" classname="tests.VisaClassicAndToApplicationTypeKPCU" time="1.254"/>
+  <testcase name="checkVisaClassicText" classname="tests.CheckVisaClassicTextKPCU" time="1.724"/>
+  <testcase name="checkVisaPlatinumRewardsText" classname="tests.CheckVisaPlatinumRewardsTextKPCU" time="3.829"/>
 </testsuite>
